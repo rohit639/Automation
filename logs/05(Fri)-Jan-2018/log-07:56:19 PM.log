@@ -1,0 +1,8 @@
+ INFO 2018-01-05 19:56:19,190 [main][] com.test.testng.FramworkConfig - 
+
+ INFO 2018-01-05 19:56:19,195 [main][] com.test.testng.FramworkConfig - =====================================================================================================================================
+ INFO 2018-01-05 19:56:19,196 [main][] com.test.testng.FramworkConfig - 	||  [TestClass name=class com.test.webdriver.WebDriverTest] || Method Name  runTest ||  Skipped ||
+ INFO 2018-01-05 19:56:19,196 [main][] com.test.testng.FramworkConfig - =====================================================================================================================================
+
+ INFO 2018-01-05 19:56:19,200 [main][] com.test.testng.FramworkConfig - Closing Browser 
+

@@ -1,0 +1,91 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>Selippium</groupId>
+  <artifactId>Automation</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Automation</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <testng.version>6.8</testng.version>
+        <selenium.version>3.5.3</selenium.version>
+        <selenium.server.version>3.5.3</selenium.server.version>
+        <surefire.version>2.11</surefire.version>
+        <maven.compiler.version>2.3.2</maven.compiler.version>
+        <log4j.version>1.2.17</log4j.version>
+    </properties>
+ 
+    <dependencies>
+   
+   	 <dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>1.4.5</version>
+</dependency>
+
+
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.7.21</version>
+</dependency>
+    
+    <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+
+    
+    <dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>${log4j.version}</version>
+</dependency>
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>apache-log4j-extras</artifactId>
+    <version>1.2.17</version>
+</dependency>
+      <dependency>
+          <groupId>org.testng</groupId>
+          <artifactId>testng</artifactId>
+          <version>${testng.version}</version>
+      </dependency>
+      <dependency>
+          <groupId>org.seleniumhq.selenium</groupId>
+          <artifactId>selenium-java</artifactId>
+          <version>${selenium.version}</version>
+      </dependency>
+      <!-- <dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>${selenium.server.version}</version>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>${selenium.server.version}</version>
+			<scope>system</scope>
+			<systemPath>/Users/r0044298/Documents/workspace/MavenTesting/Automation/lib/selenium-server-standalone-3.5.3.jar</systemPath>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.16</version>
+</dependency>
+		
+	<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.16</version>
+</dependency>
+		
+    </dependencies>
+
+</project>

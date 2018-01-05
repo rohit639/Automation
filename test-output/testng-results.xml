@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2947" started-at="2018-01-05T14:33:41Z" finished-at="2018-01-05T14:33:44Z">
+    <groups>
+      <group name="all">
+        <method signature="WebDriverTest.runTest()[pri:0, instance:com.test.webdriver.WebDriverTest@4d49af10]" name="runTest" class="com.test.webdriver.WebDriverTest"/>
+      </group> <!-- all -->
+      <group name="p1">
+        <method signature="WebDriverTest.runTest()[pri:0, instance:com.test.webdriver.WebDriverTest@4d49af10]" name="runTest" class="com.test.webdriver.WebDriverTest"/>
+      </group> <!-- p1 -->
+      <group name="regression">
+        <method signature="WebDriverTest.runTest()[pri:0, instance:com.test.webdriver.WebDriverTest@4d49af10]" name="runTest" class="com.test.webdriver.WebDriverTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Default test" duration-ms="2947" started-at="2018-01-05T14:33:41Z" finished-at="2018-01-05T14:33:44Z">
+      <class name="com.test.webdriver.WebDriverTest">
+        <test-method status="PASS" signature="settingEnvironment()[pri:0, instance:com.test.webdriver.WebDriverTest@4d49af10]" name="settingEnvironment" is-config="true" duration-ms="1011" started-at="2018-01-05T20:03:40Z" finished-at="2018-01-05T20:03:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingEnvironment -->
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:com.test.webdriver.WebDriverTest@4d49af10]" name="startDriver" is-config="true" duration-ms="2770" started-at="2018-01-05T20:03:41Z" finished-at="2018-01-05T20:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="methodName(java.lang.reflect.Method)[pri:0, instance:com.test.webdriver.WebDriverTest@4d49af10]" name="methodName" is-config="true" duration-ms="23" started-at="2018-01-05T20:03:43Z" finished-at="2018-01-05T20:03:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.webdriver.WebDriverTest.runTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method status="PASS" signature="runTest()[pri:0, instance:com.test.webdriver.WebDriverTest@4d49af10]" name="runTest" duration-ms="12" started-at="2018-01-05T20:03:43Z" finished-at="2018-01-05T20:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:com.test.webdriver.WebDriverTest@4d49af10]" name="stopDriver" is-config="true" duration-ms="94" started-at="2018-01-05T20:03:43Z" finished-at="2018-01-05T20:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- com.test.webdriver.WebDriverTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

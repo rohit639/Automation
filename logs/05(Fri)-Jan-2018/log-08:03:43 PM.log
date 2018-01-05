@@ -1,0 +1,9 @@
+ INFO 2018-01-05 20:03:43,874 [main][] com.test.testng.FramworkConfig - Browser Opened
+ INFO 2018-01-05 20:03:43,953 [main][] com.test.testng.FramworkConfig - 
+
+ INFO 2018-01-05 20:03:43,953 [main][] com.test.testng.FramworkConfig - =====================================================================================================================================
+ INFO 2018-01-05 20:03:43,955 [main][] com.test.testng.FramworkConfig - 	||  [TestClass name=class com.test.webdriver.WebDriverTest] || Method Name  runTest ||  Passed ||
+ INFO 2018-01-05 20:03:43,956 [main][] com.test.testng.FramworkConfig - =====================================================================================================================================
+
+ INFO 2018-01-05 20:03:43,960 [main][] com.test.testng.FramworkConfig - Closing Browser 
+
